@@ -24,6 +24,8 @@ dr.find_element_by_id('id').send_keys('hi')
 print(dr.page_source)
 dr.quit()
 
+#XPATH //*[@attr="10302"] 줄여서
+
 # ele=dr.find_element_by_class_name('clssName) //클래스 이름으로 찾기침
 # ele=dr.find_element_by_id('id') //id로 찾기
 # ele = dr.fine_element_by_xpath("copy and paste")
